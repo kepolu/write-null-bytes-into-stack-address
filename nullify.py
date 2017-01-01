@@ -1,5 +1,7 @@
 #! /usr/bin/python
 
+# tesla_ (gandung@ppp.cylab.cmu.edu)
+
 from struct import pack
 
 start_offset = 0x59a
