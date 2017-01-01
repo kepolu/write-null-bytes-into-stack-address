@@ -33,3 +33,5 @@ choose base stack address ( use 'info proc mappings' in gdb or 'pmap `pidof <you
 Add it with your custom offset ( assume it will contains the last 1-byte LSB (Least Significant Byte) ) and continue with 3-bytes next.
 
 NB: ASLR must be off, because when it's on, it will be randomize stack base address each execution.. cheers.. :)
+
+tesla_ (gandung@ppp.cylab.cmu.edu)
